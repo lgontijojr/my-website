@@ -1,4 +1,6 @@
-export const aboutText = [
+import type { SectionContentBlock } from '../../types/section';
+
+export const aboutText: SectionContentBlock[] = [
   {
     sectionTitle: "My Life Story",
     content: [

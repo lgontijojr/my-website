@@ -1,20 +1,23 @@
-import React from "react";
-import "../css/components/_section.css";
+import React from 'react';
+import type { ContentElement, SectionContentBlock } from '../types/section';
 
-const Section = (props) => {
-  const { headerTitle, content } = props;
+interface SectionProps {
+  headerTitle: string;
+  content: SectionContentBlock[];
+}
 
-  const renderContent = (element, elementIndex) => {
+const Section: React.FC<SectionProps> = ({ headerTitle, content }) => {
+  const renderContent = (element: ContentElement, elementIndex: number) => {
     switch (element.type) {
       case "text":
         return React.createElement(
-          element.tag || "p",
+          element.tag || 'p',
           { style: element.style, key: `${elementIndex}-text` },
           element.value
         );
       case "list":
         return React.createElement(
-          element.listType || "ul",
+          element.listType || 'ul',
           { key: `${elementIndex}-list` },
           element.items.map((item, index) => (
             <li key={`${elementIndex}-item-${index}`}>{item.value}</li>

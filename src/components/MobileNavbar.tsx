@@ -1,7 +1,11 @@
-import { Link } from "react-router-dom";
-import "../css/components/_mobile_navbar.css";
+import Link from 'next/link';
 
-const MobileNavbar = (props) => {
+interface MobileNavbarProps {
+  isOpen: boolean;
+  toggleSidebar: (open: boolean) => void;
+}
+
+const MobileNavbar: React.FC<MobileNavbarProps> = (props) => {
   return (
     <div className="mobile_menu">
       <nav>
@@ -9,7 +13,7 @@ const MobileNavbar = (props) => {
           <li>
             <Link
               onClick={() => props.toggleSidebar(!props.isOpen)}
-              to="/about"
+              href="/about"
             >
               About
             </Link>
@@ -17,7 +21,7 @@ const MobileNavbar = (props) => {
           <li>
             <Link
               onClick={() => props.toggleSidebar(!props.isOpen)}
-              to="/resume"
+              href="/resume"
             >
               Resume
             </Link>
@@ -25,7 +29,7 @@ const MobileNavbar = (props) => {
           <li>
             <Link
               onClick={() => props.toggleSidebar(!props.isOpen)}
-              to="/contact"
+              href="/contact"
             >
               Contact
             </Link>

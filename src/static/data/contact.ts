@@ -1,4 +1,6 @@
-export const contactText = [
+import type { SectionContentBlock } from '../../types/section';
+
+export const contactText: SectionContentBlock[] = [
   {
     sectionTitle: "Contact",
     content: [

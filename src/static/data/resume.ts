@@ -1,4 +1,6 @@
-export const resumeText = [
+import type { SectionContentBlock } from '../../types/section';
+
+export const resumeText: SectionContentBlock[] = [
   {
     sectionTitle: "Experience",
     content: [

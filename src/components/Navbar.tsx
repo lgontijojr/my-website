@@ -1,10 +1,13 @@
-import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
-import MobileNavbar from "./MobileNavbar";
+import { useState, useEffect } from 'react';
+import Link from 'next/link';
+import MobileNavbar from './MobileNavbar';
 
-import "../css/components/_navbar.css";
+interface NavbarProps {
+  isOpen: boolean;
+  toggleSidebar: (open: boolean) => void;
+}
 
-const Navbar = (props) => {
+const Navbar: React.FC<NavbarProps> = (props) => {
   function getWindowWidth() {
     const { innerWidth: width } = window;
     return width;
@@ -46,13 +49,13 @@ const Navbar = (props) => {
       <nav className="nav_bar">
         <ul className="nav_menu">
           <li className="nav_item">
-            <Link to="/about">About</Link>
+            <Link href="/about">About</Link>
           </li>
           <li>
-            <Link to="/resume">Resume</Link>
+            <Link href="/resume">Resume</Link>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <Link href="/contact">Contact</Link>
           </li>
         </ul>
       </nav>
