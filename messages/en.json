@@ -1,0 +1,220 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "resume": "Resume",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "role": "Senior Software Engineer",
+    "company": "Netflix",
+    "taglines": [
+      "Senior Software Engineer with 7+ years of experience specializing in Automation, Quality Assurance, and Full Stack Development. Proven track record of launching high-impact features to millions of users at scale.",
+      "Expert in building testing frameworks, scaling CI pipelines, leading cross-functional engineering initiatives, and driving product quality through precision testing and automation.",
+      "Passionate about developing efficient, user-focused, and globally resilient software systems."
+    ],
+    "cta": "View Resume"
+  },
+  "about": {
+    "title": "My Life Story",
+    "subtitle": "From Brazil to Netflix - a journey of determination",
+    "paragraphs": [
+      "I was born and raised in Goiania, Brazil, and in 2012, I immigrated to the United States with little more than hope and determination. I barely spoke English, but I threw myself into learning, consuming American media and practicing with anyone who would talk to me. My first job in the U.S. was as a janitor at Buffalo Wild Wings. I used that role as an opportunity - not just to work but to grow. Step by step, I improved my English, earning a promotion to server and eventually to manager.",
+      "At Apple, as a Specialist, I learned Spanish to better connect with a diverse customer base. My passion for learning and technology led me to the Year Up program in 2017, where I earned an internship at Slack. There, I grew from a Quality Engineer to Senior Software Engineer, developing and maintaining robust, user-focused solutions.",
+      "I later joined Airtable, where I built automation systems and led a 15+ person team, and Tango Technologies, where I focused on testing strategies, automation, and tool development to improve software quality. These experiences deepened my expertise in delivering efficient, reliable, and impactful products.",
+      "Today, as a Senior Software Engineer at Netflix, I channel my technical skills and passion for innovation to launch major features impacting millions of users globally."
+    ]
+  },
+  "resume": {
+    "title": "Resume",
+    "badge": "Senior Software Engineer @ Netflix",
+    "subtitle": "Building quality into every line of code. From Slack to Netflix, crafting testing solutions that scale.",
+    "experience": "Experience",
+    "current": "Current",
+    "nonProfit": "Teaching & Mentorship",
+    "education": "Education",
+    "languages": "Languages",
+    "projects": "Projects",
+    "sections": {
+      "experience": "Experience",
+      "nonprofit": "Non-Profit",
+      "education": "Education",
+      "languages": "Languages",
+      "projects": "Projects"
+    },
+    "jobs": {
+      "netflix": {
+        "company": "Netflix",
+        "title": "Senior Software Engineer (L5)",
+        "achievements": [
+          "Launched major features, implementing automated E2E tests, API tests, visual diff tests, and manual QA for releases impacting millions of users globally.",
+          "Led precision testing for high-risk, localized production rollouts, ensuring reliable feature delivery across all markets.",
+          "Built and enhanced internal tools to optimize engineering workflows and developer productivity.",
+          "Designed and executed growth A/B tests affecting virtually every Netflix user from first site interaction."
+        ]
+      },
+      "tango": {
+        "company": "Tango Technologies",
+        "title": "Senior Software Engineer",
+        "achievements": [
+          "Led comprehensive end-to-end testing across 18 engineering teams, developed organization-wide automation strategies, and created a visual testing tool analyzing millions of snapshots monthly.",
+          "Implemented Playwright automation for a Chrome extension, a desktop application, and cross-browser workflows, significantly boosting testing efficiency, coverage, and product quality.",
+          "Delivered full stack improvements across frontend (React, TypeScript) and backend (Python, Node.js), collaborating with product and UX teams to create seamless, scalable, and user-centric solutions."
+        ]
+      },
+      "airtable": {
+        "company": "Airtable",
+        "title": "Senior Software Engineer - Automation",
+        "achievements": [
+          "Led the implementation of Cypress, and scaling the CI pipeline to enhance continuous testing.",
+          "Developed custom scripts for efficient triage and test alert management.",
+          "Successfully built and hired a 15+ person automation team, defining the hiring strategy to improve quality and time.",
+          "Authored numerous E2E tests, contributing to robust code validation."
+        ]
+      },
+      "slack": {
+        "company": "Slack",
+        "positions": [
+          {
+            "title": "Senior Software Engineer - Automation",
+            "achievements": [
+              "Led Cypress testing adoption across Slack, integrating failure alerts directly into workflows.",
+              "Designed E2E test cases using JavaScript, Ruby, and Python, enhancing reliability.",
+              "Collaborated with Jenkins and Sauce Labs to run tests across multiple OS and browsers.",
+              "Built dozens of React components and corresponding unit tests, contributing to scalable, maintainable UI systems."
+            ]
+          },
+          {
+            "title": "Quality Engineer (Web - iOS)",
+            "achievements": [
+              "Led QA efforts for the calls feature, testing audio, video, and screen-sharing features across multiple OS's and devices.",
+              "Authored automation and manual test cases weekly."
+            ]
+          }
+        ]
+      }
+    },
+    "nonProfitWork": [
+      {
+        "title": "JavaScript Instructor - Year Up",
+        "achievements": [
+          "Taught 30+ students, covering JavaScript from basic fundamentals to advanced concepts.",
+          "Prepared and delivered engaging lessons and assignments, fostering creativity and enhancing students' programming proficiency."
+        ]
+      },
+      {
+        "title": "Guest Speaker - Year Up & Emerging Leaders Program",
+        "achievements": [
+          "Delivered motivational talks to high school students about career goals and professional development.",
+          "Shared industry experiences and practical advice for navigating career paths."
+        ]
+      }
+    ],
+    "educationItems": [
+      {
+        "institution": "General Assembly",
+        "program": "Software Engineering Immersive",
+        "description": "San Francisco, CA - January 2019 to June 2019"
+      },
+      {
+        "institution": "Year Up",
+        "program": "Technical Training & Career Development",
+        "description": "Intensive program with corporate partners. Includes college-level courses, professional training, and a six-month internship."
+      }
+    ],
+    "languageItems": [
+      { "name": "Portuguese", "proficiency": "Bilingual" },
+      { "name": "English", "proficiency": "Bilingual" },
+      { "name": "Spanish", "proficiency": "Limited Working Proficiency" }
+    ],
+    "projectItems": [
+      {
+        "title": "Ink-y",
+        "description": "A tattoo-focused social platform using React, Node.js, and MongoDB, emphasizing user experience and performance optimization."
+      },
+      {
+        "title": "Personal Website",
+        "description": "Built a portfolio site with Next.js, TypeScript, and shadcn/ui, showcasing projects through an intuitive, responsive design."
+      }
+    ]
+  },
+  "projects": {
+    "badge": "Side Projects",
+    "title": "Projects",
+    "subtitle": "A collection of personal projects showcasing my skills in web development, from responsive designs to full-stack applications.",
+    "stats": {
+      "projectsBuilt": "Projects Built",
+      "technologies": "Technologies"
+    },
+    "cta": {
+      "title": "Have a project in mind?",
+      "description": "I'm always open to discussing new projects and opportunities.",
+      "contact": "Get in Touch"
+    }
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Have a question or want to work together?",
+    "email": "Email",
+    "emailAddress": "lgontijojr@gmail.com",
+    "connect": "Connect with me"
+  },
+  "footer": {
+    "copyright": "All rights reserved.",
+    "builtWith": "Built with Next.js, TypeScript & shadcn/ui",
+    "createdBy": "Created and maintained by"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "common": {
+    "getInTouch": "Get in Touch",
+    "viewProfile": "View Profile",
+    "less": "Less",
+    "more": "More",
+    "navigation": "Navigation",
+    "connect": "Connect",
+    "softwareEngineer": "Software Engineer",
+    "techStack": "Tech Stack",
+    "keyFeatures": "Key Features",
+    "activeDevelopment": "Active Development",
+    "live": "Live",
+    "openToOpportunities": "Open to opportunities",
+    "createdBy": "Created and maintained by",
+    "projectsBuilt": "Projects Built",
+    "technologies": "Technologies",
+    "journeyContinues": "The journey continues...",
+    "openMenu": "Open menu",
+    "toggleTheme": "Toggle theme"
+  },
+  "github": {
+    "activity": "GitHub Activity",
+    "contributionsLastYear": "contributions in the last year"
+  },
+  "experience": {
+    "years": "Years",
+    "months": "Months",
+    "days": "Days",
+    "hours": "Hours",
+    "min": "Min",
+    "sec": "Sec",
+    "label": "Experience"
+  },
+  "errors": {
+    "notFound": {
+      "title": "Page Not Found",
+      "description": "The page you're looking for doesn't exist or has been moved.",
+      "backHome": "Back to Home"
+    },
+    "error": {
+      "title": "Something went wrong",
+      "description": "An unexpected error occurred. Please try again.",
+      "tryAgain": "Try Again",
+      "backHome": "Back to Home"
+    }
+  }
+}

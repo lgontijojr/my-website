@@ -1,0 +1,21 @@
+{
+  "name": "Luiz Gontijo | Senior Software Engineer",
+  "short_name": "Luiz Gontijo",
+  "description": "Senior Software Engineer at Netflix with 7+ years of experience in automation, QA, and full stack development.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#34d399",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["portfolio", "technology", "software engineering"],
+  "lang": "en",
+  "dir": "ltr"
+}

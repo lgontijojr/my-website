@@ -1,0 +1,220 @@
+{
+  "nav": {
+    "home": "Início",
+    "about": "Sobre",
+    "resume": "Currículo",
+    "projects": "Projetos",
+    "contact": "Contato"
+  },
+  "hero": {
+    "greeting": "Olá, eu sou",
+    "role": "Senior Software Engineer",
+    "company": "Netflix",
+    "taglines": [
+      "Senior Software Engineer com mais de 7 anos de experiência especializado em Automação, Quality Assurance e Desenvolvimento Full Stack. Histórico comprovado de lançamento de funcionalidades de alto impacto para milhões de usuários em escala.",
+      "Especialista em construir frameworks de teste, escalar pipelines de CI, liderar iniciativas de engenharia cross-funcionais e impulsionar a qualidade do produto através de testes de precisão e automação.",
+      "Apaixonado por desenvolver sistemas de software eficientes, focados no usuário e globalmente resilientes."
+    ],
+    "cta": "Ver Currículo"
+  },
+  "about": {
+    "title": "Minha História",
+    "subtitle": "Do Brasil para a Netflix - uma jornada de determinação",
+    "paragraphs": [
+      "Nasci e cresci em Goiânia, Brasil, e em 2012, imigrei para os Estados Unidos com pouco mais do que esperança e determinação. Mal falava inglês, mas me joguei no aprendizado, consumindo mídia americana e praticando com qualquer pessoa que quisesse conversar comigo. Meu primeiro emprego nos EUA foi como faxineiro no Buffalo Wild Wings. Usei essa função como uma oportunidade - não apenas para trabalhar, mas para crescer. Passo a passo, melhorei meu inglês, ganhando uma promoção para garçom e eventualmente para gerente.",
+      "Na Apple, como Especialista, aprendi espanhol para me conectar melhor com uma base diversa de clientes. Minha paixão por aprender e por tecnologia me levou ao programa Year Up em 2017, onde consegui um estágio no Slack. Lá, cresci de Quality Engineer para Senior Software Engineer, desenvolvendo e mantendo soluções robustas e focadas no usuário.",
+      "Depois, entrei para a Airtable, onde construí sistemas de automação e liderei um time de mais de 15 pessoas, e para a Tango Technologies, onde foquei em estratégias de teste, automação e desenvolvimento de ferramentas para melhorar a qualidade do software. Essas experiências aprofundaram minha expertise em entregar produtos eficientes, confiáveis e impactantes.",
+      "Hoje, como Senior Software Engineer na Netflix, canalizo minhas habilidades técnicas e paixão por inovação para lançar funcionalidades importantes que impactam milhões de usuários globalmente."
+    ]
+  },
+  "resume": {
+    "title": "Currículo",
+    "badge": "Senior Software Engineer @ Netflix",
+    "subtitle": "Construindo qualidade em cada linha de código. Do Slack à Netflix, criando soluções de teste que escalam.",
+    "experience": "Experiência",
+    "current": "Atual",
+    "nonProfit": "Ensino e Mentoria",
+    "education": "Educação",
+    "languages": "Idiomas",
+    "projects": "Projetos",
+    "sections": {
+      "experience": "Experiência",
+      "nonprofit": "Voluntariado",
+      "education": "Educação",
+      "languages": "Idiomas",
+      "projects": "Projetos"
+    },
+    "jobs": {
+      "netflix": {
+        "company": "Netflix",
+        "title": "Senior Software Engineer (L5)",
+        "achievements": [
+          "Lancei funcionalidades importantes, implementando testes automatizados E2E, testes de API, testes de diff visual e QA manual para releases impactando milhões de usuários globalmente.",
+          "Liderei testes de precisão para rollouts de produção localizados de alto risco, garantindo entrega confiável de funcionalidades em todos os mercados.",
+          "Construí e aprimorei ferramentas internas para otimizar workflows de engenharia e produtividade dos desenvolvedores.",
+          "Projetei e executei testes A/B de crescimento afetando virtualmente todos os usuários Netflix desde a primeira interação no site."
+        ]
+      },
+      "tango": {
+        "company": "Tango Technologies",
+        "title": "Senior Software Engineer",
+        "achievements": [
+          "Liderei testes end-to-end abrangentes em 18 times de engenharia, desenvolvi estratégias de automação em toda a organização e criei uma ferramenta de testes visuais analisando milhões de snapshots mensalmente.",
+          "Implementei automação Playwright para uma extensão Chrome, uma aplicação desktop e workflows cross-browser, aumentando significativamente a eficiência, cobertura e qualidade do produto.",
+          "Entreguei melhorias full stack no frontend (React, TypeScript) e backend (Python, Node.js), colaborando com times de produto e UX para criar soluções seamless, escaláveis e centradas no usuário."
+        ]
+      },
+      "airtable": {
+        "company": "Airtable",
+        "title": "Senior Software Engineer - Automation",
+        "achievements": [
+          "Liderei a implementação do Cypress e escalonamento do pipeline de CI para melhorar testes contínuos.",
+          "Desenvolvi scripts personalizados para triagem eficiente e gerenciamento de alertas de teste.",
+          "Construí e contratei com sucesso um time de automação de mais de 15 pessoas, definindo a estratégia de contratação para melhorar qualidade e tempo.",
+          "Escrevi inúmeros testes E2E, contribuindo para validação robusta de código."
+        ]
+      },
+      "slack": {
+        "company": "Slack",
+        "positions": [
+          {
+            "title": "Senior Software Engineer - Automation",
+            "achievements": [
+              "Liderei a adoção de testes Cypress em todo o Slack, integrando alertas de falha diretamente nos workflows.",
+              "Projetei casos de teste E2E usando JavaScript, Ruby e Python, melhorando a confiabilidade.",
+              "Colaborei com Jenkins e Sauce Labs para rodar testes em múltiplos sistemas operacionais e navegadores.",
+              "Construí dezenas de componentes React e testes unitários correspondentes, contribuindo para sistemas de UI escaláveis e manuteníveis."
+            ]
+          },
+          {
+            "title": "Quality Engineer (Web - iOS)",
+            "achievements": [
+              "Liderei esforços de QA para a funcionalidade de chamadas, testando áudio, vídeo e compartilhamento de tela em múltiplos sistemas operacionais e dispositivos.",
+              "Criei casos de teste de automação e manuais semanalmente."
+            ]
+          }
+        ]
+      }
+    },
+    "nonProfitWork": [
+      {
+        "title": "Instrutor de JavaScript - Year Up",
+        "achievements": [
+          "Ensinei mais de 30 alunos, cobrindo JavaScript desde fundamentos básicos até conceitos avançados.",
+          "Preparei e ministrei aulas e atividades envolventes, fomentando criatividade e melhorando a proficiência em programação dos alunos."
+        ]
+      },
+      {
+        "title": "Palestrante - Year Up e Emerging Leaders Program",
+        "achievements": [
+          "Dei palestras motivacionais para estudantes do ensino médio sobre objetivos de carreira e desenvolvimento profissional.",
+          "Compartilhei experiências da indústria e conselhos práticos para navegar carreiras."
+        ]
+      }
+    ],
+    "educationItems": [
+      {
+        "institution": "General Assembly",
+        "program": "Software Engineering Immersive",
+        "description": "San Francisco, CA - Janeiro 2019 a Junho 2019"
+      },
+      {
+        "institution": "Year Up",
+        "program": "Treinamento Técnico e Desenvolvimento de Carreira",
+        "description": "Programa intensivo com parceiros corporativos. Inclui cursos de nível universitário, treinamento profissional e estágio de seis meses."
+      }
+    ],
+    "languageItems": [
+      { "name": "Português", "proficiency": "Bilíngue" },
+      { "name": "Inglês", "proficiency": "Bilíngue" },
+      { "name": "Espanhol", "proficiency": "Proficiência Limitada de Trabalho" }
+    ],
+    "projectItems": [
+      {
+        "title": "Ink-y",
+        "description": "Uma plataforma social focada em tatuagens usando React, Node.js e MongoDB, enfatizando experiência do usuário e otimização de performance."
+      },
+      {
+        "title": "Website Pessoal",
+        "description": "Construí um site portfólio com Next.js, TypeScript e shadcn/ui, mostrando projetos através de um design intuitivo e responsivo."
+      }
+    ]
+  },
+  "projects": {
+    "badge": "Projetos Pessoais",
+    "title": "Projetos",
+    "subtitle": "Uma coleção de projetos pessoais mostrando minhas habilidades em desenvolvimento web, desde designs responsivos até aplicações full-stack.",
+    "stats": {
+      "projectsBuilt": "Projetos Criados",
+      "technologies": "Tecnologias"
+    },
+    "cta": {
+      "title": "Tem um projeto em mente?",
+      "description": "Estou sempre aberto a discutir novos projetos e oportunidades.",
+      "contact": "Entre em Contato"
+    }
+  },
+  "contact": {
+    "title": "Entre em Contato",
+    "subtitle": "Tem alguma pergunta ou quer trabalhar junto?",
+    "email": "Email",
+    "emailAddress": "lgontijojr@gmail.com",
+    "connect": "Conecte-se comigo"
+  },
+  "footer": {
+    "copyright": "Todos os direitos reservados.",
+    "builtWith": "Feito com Next.js, TypeScript & shadcn/ui",
+    "createdBy": "Criado e mantido por"
+  },
+  "theme": {
+    "light": "Claro",
+    "dark": "Escuro",
+    "system": "Sistema"
+  },
+  "common": {
+    "getInTouch": "Entre em Contato",
+    "viewProfile": "Ver Perfil",
+    "less": "Menos",
+    "more": "Mais",
+    "navigation": "Navegação",
+    "connect": "Conectar",
+    "softwareEngineer": "Engenheiro de Software",
+    "techStack": "Tecnologias",
+    "keyFeatures": "Recursos Principais",
+    "activeDevelopment": "Em Desenvolvimento",
+    "live": "Ativo",
+    "openToOpportunities": "Aberto a oportunidades",
+    "createdBy": "Criado e mantido por",
+    "projectsBuilt": "Projetos Criados",
+    "technologies": "Tecnologias",
+    "journeyContinues": "A jornada continua...",
+    "openMenu": "Abrir menu",
+    "toggleTheme": "Alternar tema"
+  },
+  "github": {
+    "activity": "Atividade no GitHub",
+    "contributionsLastYear": "contribuições no último ano"
+  },
+  "experience": {
+    "years": "Anos",
+    "months": "Meses",
+    "days": "Dias",
+    "hours": "Horas",
+    "min": "Min",
+    "sec": "Seg",
+    "label": "Experiência"
+  },
+  "errors": {
+    "notFound": {
+      "title": "Página Não Encontrada",
+      "description": "A página que você está procurando não existe ou foi movida.",
+      "backHome": "Voltar ao Início"
+    },
+    "error": {
+      "title": "Algo deu errado",
+      "description": "Ocorreu um erro inesperado. Por favor, tente novamente.",
+      "tryAgain": "Tentar Novamente",
+      "backHome": "Voltar ao Início"
+    }
+  }
+}
